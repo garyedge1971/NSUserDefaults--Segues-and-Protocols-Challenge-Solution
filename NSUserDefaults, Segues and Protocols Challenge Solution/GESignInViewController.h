@@ -1,5 +1,5 @@
 //
-//  GEViewController.h
+//  GESignInViewController.h
 //  NSUserDefaults, Segues and Protocols Challenge Solution
 //
 //  Created by Gary Edgcombe on 30/04/2014.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GEViewController : UIViewController
-
-@property (strong, nonatomic) NSString *passedInUsername;
-@property (strong, nonatomic) NSString *passedInPassword;
-
+@interface GESignInViewController : UIViewController
 
 @end

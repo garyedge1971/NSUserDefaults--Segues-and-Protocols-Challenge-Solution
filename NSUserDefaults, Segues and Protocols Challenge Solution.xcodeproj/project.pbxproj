@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10C049D11911506600111B5A /* GEUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C049D01911506600111B5A /* GEUser.m */; };
+		10C049D41911673D00111B5A /* GEDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C049D31911673D00111B5A /* GEDefines.m */; };
 		10D6E94A1911254D00333C4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10D6E9491911254D00333C4D /* Foundation.framework */; };
 		10D6E94C1911254D00333C4D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10D6E94B1911254D00333C4D /* CoreGraphics.framework */; };
 		10D6E94E1911254D00333C4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10D6E94D1911254D00333C4D /* UIKit.framework */; };
@@ -21,6 +23,8 @@
 		10D6E96B1911254D00333C4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10D6E94D1911254D00333C4D /* UIKit.framework */; };
 		10D6E9731911254D00333C4D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10D6E9711911254D00333C4D /* InfoPlist.strings */; };
 		10D6E9751911254D00333C4D /* NSUserDefaults__Segues_and_Protocols_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D6E9741911254D00333C4D /* NSUserDefaults__Segues_and_Protocols_Challenge_SolutionTests.m */; };
+		10D6E980191125AD00333C4D /* GESignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D6E97F191125AD00333C4D /* GESignInViewController.m */; };
+		10D6E983191125ED00333C4D /* GECreateAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D6E982191125ED00333C4D /* GECreateAccountViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10C049CF1911506600111B5A /* GEUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEUser.h; sourceTree = "<group>"; };
+		10C049D01911506600111B5A /* GEUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEUser.m; sourceTree = "<group>"; };
+		10C049D21911673D00111B5A /* GEDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEDefines.h; sourceTree = "<group>"; };
+		10C049D31911673D00111B5A /* GEDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEDefines.m; sourceTree = "<group>"; };
 		10D6E9461911254D00333C4D /* NSUserDefaults, Segues and Protocols Challenge Solution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSUserDefaults, Segues and Protocols Challenge Solution.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10D6E9491911254D00333C4D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		10D6E94B1911254D00333C4D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +61,10 @@
 		10D6E9701911254D00333C4D /* NSUserDefaults, Segues and Protocols Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSUserDefaults, Segues and Protocols Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		10D6E9721911254D00333C4D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		10D6E9741911254D00333C4D /* NSUserDefaults__Segues_and_Protocols_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSUserDefaults__Segues_and_Protocols_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		10D6E97E191125AD00333C4D /* GESignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GESignInViewController.h; sourceTree = "<group>"; };
+		10D6E97F191125AD00333C4D /* GESignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GESignInViewController.m; sourceTree = "<group>"; };
+		10D6E981191125ED00333C4D /* GECreateAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GECreateAccountViewController.h; sourceTree = "<group>"; };
+		10D6E982191125ED00333C4D /* GECreateAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GECreateAccountViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +127,16 @@
 				10D6E9581911254D00333C4D /* GEAppDelegate.h */,
 				10D6E9591911254D00333C4D /* GEAppDelegate.m */,
 				10D6E95B1911254D00333C4D /* Main.storyboard */,
+				10D6E981191125ED00333C4D /* GECreateAccountViewController.h */,
+				10D6E982191125ED00333C4D /* GECreateAccountViewController.m */,
+				10D6E97E191125AD00333C4D /* GESignInViewController.h */,
+				10D6E97F191125AD00333C4D /* GESignInViewController.m */,
 				10D6E95E1911254D00333C4D /* GEViewController.h */,
 				10D6E95F1911254D00333C4D /* GEViewController.m */,
+				10C049CF1911506600111B5A /* GEUser.h */,
+				10C049D01911506600111B5A /* GEUser.m */,
+				10C049D21911673D00111B5A /* GEDefines.h */,
+				10C049D31911673D00111B5A /* GEDefines.m */,
 				10D6E9611911254D00333C4D /* Images.xcassets */,
 				10D6E9501911254D00333C4D /* Supporting Files */,
 			);
@@ -251,7 +271,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				10D6E95A1911254D00333C4D /* GEAppDelegate.m in Sources */,
+				10D6E983191125ED00333C4D /* GECreateAccountViewController.m in Sources */,
 				10D6E9601911254D00333C4D /* GEViewController.m in Sources */,
+				10D6E980191125AD00333C4D /* GESignInViewController.m in Sources */,
+				10C049D41911673D00111B5A /* GEDefines.m in Sources */,
+				10C049D11911506600111B5A /* GEUser.m in Sources */,
 				10D6E9561911254D00333C4D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +481,7 @@
 				10D6E97A1911254D00333C4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10D6E97B1911254D00333C4D /* Build configuration list for PBXNativeTarget "NSUserDefaults, Segues and Protocols Challenge SolutionTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +490,7 @@
 				10D6E97D1911254D00333C4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

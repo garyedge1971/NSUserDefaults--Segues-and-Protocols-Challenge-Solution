@@ -7,8 +7,11 @@
 //
 
 #import "GEViewController.h"
+#import "GEDefines.h"
 
 @interface GEViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *usernameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *passwordLabel;
 
 @end
 
@@ -18,8 +21,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.usernameLabel.text = self.passedInUsername;
+    self.passwordLabel.text = self.passedInPassword;
 }
-
+    
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
