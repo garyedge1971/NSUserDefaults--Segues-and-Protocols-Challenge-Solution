@@ -59,6 +59,7 @@
 {
     [super viewDidLoad];
     [self retrieveAllData];
+    self.passwordTextField.secureTextEntry = YES;
     self.loginButton.layer.cornerRadius = 25.0f;
     
 }

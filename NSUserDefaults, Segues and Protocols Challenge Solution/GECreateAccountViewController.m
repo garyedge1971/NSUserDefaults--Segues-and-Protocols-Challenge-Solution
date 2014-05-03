@@ -37,6 +37,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.passwordTextField.secureTextEntry = YES;
+    self.repeatPasswordTextField.secureTextEntry = YES;
     self.redButton.layer.cornerRadius = 25.0f;
     self.greenButton.layer.cornerRadius = 25.0f;
 }
